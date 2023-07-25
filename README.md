@@ -4,6 +4,10 @@ For LTX 2023, I built a timing platform centered around Timebeat's [Timecard min
 
 ![Time Card mini with timer stuff](/images/time-card-mini-timer.jpg)
 
+The time card's GPS modem is used to acquire the precise time using GPS or GNSS satellites, and that time is then displayed on a tiny 1.3" TFT connected through the Raspberry Pi GPIO pins.
+
+A Blinkstick Nano shows different colors and patterns depending on what time it is. It will help me split up time during a live stream into 5 minute segments, so Chris (from Crosstalk Solutions) and I can keep the stream moving along during the busy day at [LTX 2023](https://www.ltxexpo.com), raising money for the [ITDRC](https://www.itdrc.org).
+
 ## U-blox GPS/GNSS module Timebeat setup
 
 Timebeat maintains their own software that integrates PPS output from the U-blox GPS/GNSS module into PTP/PPS inputs and outputs on the Raspberry Pi CM4. The `timebeat` service is configured via `/etc/timebeat/timebeat.yml`, and to make sure time is served up through GPS _only_, you will need to edit that file.
