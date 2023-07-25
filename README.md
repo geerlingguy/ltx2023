@@ -163,3 +163,11 @@ If you are not running Timebeat, you can directly access the serial port to get 
   4. Reload systemctl: `sudo systemctl daemon-reload`
   5. Enable the service: `sudo systemctl enable wopr.service`
   6. Start the service: `sudo systemctl start wopr`
+
+## License
+
+MIT
+
+## Author
+
+This project was built in 2023 for LTX Expo by [Jeff Geerling](https://www.jeffgeerling.com).
