@@ -2,7 +2,7 @@
 
 For LTX 2023, I built a timing platform centered around Timebeat's [Timecard mini](https://store.timebeat.app/products/ocp-tap-timecard-mini-complete-edition).
 
-TODO: Image here.
+![Time Card mini with timer stuff](/images/time-card-mini-timer.jpg)
 
 ## U-blox GPS/GNSS module Timebeat setup
 
