@@ -8,6 +8,8 @@ The time card's GPS modem is used to acquire the precise time using GPS or GNSS 
 
 A Blinkstick Nano shows different colors and patterns depending on what time it is. It will help me split up time during a live stream into 5 minute segments, so Chris (from Crosstalk Solutions) and I can keep the stream moving along during the busy day at [LTX 2023](https://www.ltxexpo.com), raising money for the [ITDRC](https://www.itdrc.org).
 
+> Watch the video: [GPS and a Raspberry Pi over PCI—the new Time Card mini!](https://www.youtube.com/watch?v=dxtVyDXvIBE)
+
 ## U-blox GPS/GNSS module Timebeat setup
 
 Timebeat maintains their own software that integrates PPS output from the U-blox GPS/GNSS module into PTP/PPS inputs and outputs on the Raspberry Pi CM4. The `timebeat` service is configured via `/etc/timebeat/timebeat.yml`, and to make sure time is served up through GPS _only_, you will need to edit that file.
